@@ -1,0 +1,4 @@
+<h1>Pokemon Collection</h1>
+<div ng-repeat='pokie in list track by $index'>
+	<a class='listStyle' href="#/pokiedetail/{{$index}}" title="View Pokemon's Details">{{pokie.name}}</a>
+</div>

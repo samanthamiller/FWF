@@ -1,0 +1,63 @@
+html{
+	font: normal 15px/100% Verdana, Tahoma, sans-serif; 
+	color: #505050 ;
+}
+
+h1{
+	font: bold 20px/100% Verdana, Tahoma, sans-serif;  
+	padding-top: 20px;
+}
+
+h2{
+	font: normal 18px/100% Verdana, Tahoma, sans-serif;  
+}
+
+body{
+	padding-left: 20px;
+	background-color: #FFFFCC;
+  width:900px;
+  margin: 0 auto;
+}
+
+input, textarea {   
+    padding: 9px;  
+    border: solid 1px #E5E5E5;  
+    outline: 0;  
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    width: 200px;  
+    background: #FFFFFF;  
+}  
+
+select{
+	padding: 9px;  
+    border: solid 1px #E5E5E5;  
+     outline: 0;  
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    width: 100px;
+    height: 35px;
+
+    background: #FFFFFF; 
+
+
+}
+
+button{
+	font: normal 13px/100% Verdana, Tahoma, sans-serif; 
+  	background-color: #FFCC99;
+  	border: none;
+  	height: 30px;
+  	width: 100px;
+}
+
+button#del{
+  margin-right: 10px;
+  background-color: #F3D4B8;
+  height: 20px;
+  width: 20px;
+}
+
+ol{
+  width: 200px;
+  background-color: #F3D4B8;
+  border: 5px solid #FFCC99;
+}

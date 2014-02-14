@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <title>OMG PONIES!</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular-route.min.js"></script>
+        <script src="js/app.js" type="text/javascript"></script>
+        <script src="js/dataservice.js" type="text/javascript"></script>
+
+    </head>
+    <body ng-app="PonyApp">
+        <div ng-controller="MyLittlePony">
+        <a href='#/listview'>List</a> | <a href='#/detailview'>Details</a> | <a href='#/inputform'>Form</a>
+            <p>{{working}}</p>
+        <div ng-view></div>
+        </div>
+    </body>
+</html>

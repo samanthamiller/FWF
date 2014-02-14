@@ -1,0 +1,77 @@
+html{
+	font-family: helvetica;
+}
+
+#wrapper {
+	width:600px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: #F3FFE2;
+	min-height: 175px;
+}
+
+#wrapper .nav {
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+#nav{
+	width:300px;
+	margin: 0 auto;
+}
+
+form{
+	margin-left: 5px;
+}
+
+input[type=text]{
+	padding:5px; 
+	border:2px solid #EB7F00; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+input[type=text]:focus{
+	border-color: #EB7F00; 
+}
+
+input[type=submit]{
+	padding:5px 15px; 
+	background:#EB7F00; 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+	/*color: #1695A3;*/
+}
+
+input, button{
+	font-family: helvetica;
+}
+
+h1{
+	font-size: 20px;
+	margin-left: 20px;
+	color: #EB7F00;
+}
+
+h2{
+	margin-left: 20px;
+	margin-bottom: 5px;
+	margin-top: 0;
+	font-size: 16px;
+	color: #1695A3;
+}
+
+.listStyle{
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+a:link{
+	color:#1695A3;
+}
+
+a:visited{
+	color:#1695A3;
+}
