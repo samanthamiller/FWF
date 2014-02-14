@@ -1,0 +1,6 @@
+<h1>Student Roster</h1>
+<p ng-repeat="studentInfo in roster track by $index">
+    <a href="#/gpas/{{$index}}" title="View Student Details">{{studentInfo.name}}</a> 
+<!--    When the text is clicked it will remove the item based on index number -->
+    <span ng-click="removeFromRoster($index)"><small>( remove from roster )</small></span>
+</p>
